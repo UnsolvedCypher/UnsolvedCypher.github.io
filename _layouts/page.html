@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            {% include header.html %}
+            <div class="category-header">
+                <a href="/">Home</a> > 
+                <a href="/{{ page.category-url }}">{{ page.category }}</a> > 
+                <a href="{{ page.url }}">{{ page.title }}</a>
+            </div>
+        </div>
+        <div class="main-content-box">
+            {{ content }}
+      </div>
+    </div>
+</div>

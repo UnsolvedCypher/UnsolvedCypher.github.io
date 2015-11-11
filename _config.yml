@@ -1,0 +1,10 @@
+# Site settings
+title: Matthew McMillan
+email: me@me.me
+description: > # this means to ignore newlines until "baseurl:"
+  Matthew McMillan's personal website with resources and guides regarding language learning, computer science, and cubing
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
