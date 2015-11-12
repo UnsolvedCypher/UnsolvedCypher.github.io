@@ -1,6 +1,8 @@
 body {
     background-image: url("../img/page-background.jpg");
     background-attachment: fixed;
+    background-color: rgb(175, 96, 108);
+    background-position: center;
 }
 .big-hello {
     color: white;
