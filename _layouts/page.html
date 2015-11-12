@@ -6,11 +6,11 @@ layout: default
             {% include header.html %}
             <div class="category-header">
                 <a href="/">Home</a>
-                {% if page.category1 %} > <a href="/{{ page.category1-url }}">{{ page.category1 }}</a> {% endif %}
-                {% if page.category2 %} > <a href="/{{ page.category1-url }}">{{ page.category2 }}</a> {% endif %}
-                {% if page.category3 %} > <a href="/{{ page.category1-url }}">{{ page.category3 }}</a> {% endif %}
-                {% if page.category4 %} > <a href="/{{ page.category1-url }}">{{ page.category4 }}</a> {% endif %}
-                {% if page.category5 %} > <a href="/{{ page.category1-url }}">{{ page.category5 }}</a> {% endif %}
+                {% if page.category1 %} > <a href="{{ page.category1-url }}">{{ page.category1 }}</a> {% endif %}
+                {% if page.category2 %} > <a href="{{ page.category2-url }}">{{ page.category2 }}</a> {% endif %}
+                {% if page.category3 %} > <a href="{{ page.category3-url }}">{{ page.category3 }}</a> {% endif %}
+                {% if page.category4 %} > <a href="{{ page.category4-url }}">{{ page.category4 }}</a> {% endif %}
+                {% if page.category5 %} > <a href="{{ page.category5-url }}">{{ page.category5 }}</a> {% endif %}
             </div>
         <div class="main-content-box">
             {{ content }}
