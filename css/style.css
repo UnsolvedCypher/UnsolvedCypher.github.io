@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/page-background.jpg");
+    background-attachment: fixed;
 }
 .big-hello {
     color: white;
@@ -11,6 +12,8 @@ body {
     display: table;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .small-hello {
     text-align: center;
@@ -23,8 +26,9 @@ body {
     font-family: 'Poiret One';
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
-.category-header {  
+.category-header {
     color: rgb(52, 52, 52);
     text-align: left;
     font-size: 18px;
@@ -36,6 +40,7 @@ body {
     font-family: 'Arial', 'Helvetica', 'sans-serif';
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 .category-header a {
     color: #2c47db;
@@ -45,8 +50,24 @@ body {
     border-radius: 10px;
     font-family: 'Roboto';
     font-size: 20px;
-    padding: 20px;
-    margin-bottom: 40px;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.main-content-box p {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.main-content-box h2{
+    margin-left: 1.5em;
+}
+.main-content-box h3{
+    margin-left: 3em;
+}
+.main-content-box h4{
+    margin-left: 4.5em;
 }
 .homepage-box {
     background-color: rgba(255, 108, 0, 0.3);
@@ -60,6 +81,9 @@ body {
 .homepage-btn {
     margin: 5px;   
 }
-.category-header {
-    
+.alg {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+    background-color: rgb(56, 56, 56);
+    color: #00c616;
 }

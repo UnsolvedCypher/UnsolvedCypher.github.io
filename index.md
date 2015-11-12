@@ -47,6 +47,7 @@ layout: default
                         <a href="https://play.google.com/store/apps/details?id=com.cube.nanotimer"><button type="button" class="btn btn-primary homepage-btn">NanoTimer (Android)</button></a>
                         <a href="http://algdb.net"><button type="button" class="btn btn-primary homepage-btn">Algorithms Database</button></a>
                         <a href="cubing/zz"><button type="button" class="btn btn-primary homepage-btn">ZZ Resources</button></a>
+                        <a href="cubing/pyra"><button type="button" class="btn btn-primary homepage-btn">Pyraminx</button></a>
                     </div>
                 </div>
                 <div class="col-md-4">

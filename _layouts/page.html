@@ -3,14 +3,15 @@ layout: default
 ---
 <div class="row">
     <div class="col-md-12">
-        <div class="page-header">
             {% include header.html %}
             <div class="category-header">
-                <a href="/">Home</a> > 
-                <a href="/{{ page.category-url }}">{{ page.category }}</a> > 
-                <a href="{{ page.url }}">{{ page.title }}</a>
+                <a href="/">Home</a>
+                {% if page.category1 %} > <a href="/{{ page.category1-url }}">{{ page.category1 }}</a> {% endif %}
+                {% if page.category2 %} > <a href="/{{ page.category1-url }}">{{ page.category2 }}</a> {% endif %}
+                {% if page.category3 %} > <a href="/{{ page.category1-url }}">{{ page.category3 }}</a> {% endif %}
+                {% if page.category4 %} > <a href="/{{ page.category1-url }}">{{ page.category4 }}</a> {% endif %}
+                {% if page.category5 %} > <a href="/{{ page.category1-url }}">{{ page.category5 }}</a> {% endif %}
             </div>
-        </div>
         <div class="main-content-box">
             {{ content }}
       </div>
