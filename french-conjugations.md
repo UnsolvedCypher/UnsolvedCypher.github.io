@@ -178,7 +178,7 @@ category3: Conjugation Tables
 </div>
 
 <div class="conjugation-table">
-<h3>valoir</h3>
+<h3>vouloir</h3>
 <table>
   <tr>
     <td>vaux</td>
