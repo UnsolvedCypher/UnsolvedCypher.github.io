@@ -84,11 +84,12 @@ category3: Conjugation Tables
   </tr>
 </table>
 </div>
-
+<!--
 ## Irregular
 
 <div class="conjugation-table">
 <h3>avoir</h3>
+<p>(to have)</p>
 <table>
   <tr>
     <td>ai</td>
@@ -107,6 +108,7 @@ category3: Conjugation Tables
 
 <div class="conjugation-table">
 <h3>être</h3>
+<p>(to be)</p>
 <table>
   <tr>
     <td>suis</td>
@@ -125,6 +127,7 @@ category3: Conjugation Tables
 
 <div class="conjugation-table">
 <h3>aller</h3>
+<p>(to go)</p>
 <table>
   <tr>
     <td>vais</td>
@@ -143,6 +146,7 @@ category3: Conjugation Tables
 
 <div class="conjugation-table">
 <h3>faire</h3>
+<p>(to do, to make)</p>
 <table>
   <tr>
     <td>fais</td>
@@ -161,6 +165,7 @@ category3: Conjugation Tables
 
 <div class="conjugation-table">
 <h3>savoir</h3>
+<p>(to know)</p>
 <table>
   <tr>
     <td>sais</td>
@@ -179,6 +184,7 @@ category3: Conjugation Tables
 
 <div class="conjugation-table">
 <h3>valoir</h3>
+<p>(to be worth)</p>
 <table>
   <tr>
     <td>vaux</td>
@@ -197,6 +203,7 @@ category3: Conjugation Tables
 
 <div class="conjugation-table">
 <h3>mourir</h3>
+<p>(to die)</p>
 <table>
   <tr>
     <td>meurs</td>
@@ -209,6 +216,129 @@ category3: Conjugation Tables
   <tr>
     <td>meurt</td>
     <td>meurent</td> 
+  </tr>
+</table>
+</div>
+-->
+
+#Imperfect
+
+Drop the -ons ending from the present nous form of the verb, then add these endings: 
+
+<div class="conjugation-table">
+<h3>-er, -ir, and -re</h3>
+<table>
+  <tr>
+    <td>-ais</td>
+    <td>-ions</td> 
+  </tr>
+  <tr>
+    <td>-ais</td>
+    <td>-iez</td> 
+  </tr>
+  <tr>
+    <td>-ait</td>
+    <td>-aient</td> 
+  </tr>
+</table>
+</div>
+
+#Passé Simple
+
+<div class="conjugation-table">
+<h3>-er</h3>
+<table>
+  <tr>
+    <td>-ai</td>
+    <td>-âmes</td> 
+  </tr>
+  <tr>
+    <td>-as</td>
+    <td>-âtes</td> 
+  </tr>
+  <tr>
+    <td>-a</td>
+    <td>-èrent</td> 
+  </tr>
+</table>
+</div>
+
+<div class="conjugation-table">
+<h3>-ir and -re</h3>
+<table>
+  <tr>
+    <td>-is</td>
+    <td>-îmes</td> 
+  </tr>
+  <tr>
+    <td>-is</td>
+    <td>-îtes</td> 
+  </tr>
+  <tr>
+    <td>-it</td>
+    <td>-irent</td> 
+  </tr>
+</table>
+</div>
+
+#Future
+
+<div class="conjugation-table">
+<h3>-er, -ir, and -re</h3>
+<table>
+  <tr>
+    <td>-ai</td>
+    <td>-ons</td> 
+  </tr>
+  <tr>
+    <td>-as</td>
+    <td>-ez</td> 
+  </tr>
+  <tr>
+    <td>-a</td>
+    <td>-ont</td> 
+  </tr>
+</table>
+</div>
+
+#Conditional
+
+<div class="conjugation-table">
+<h3>-er, -ir, and -re</h3>
+<table>
+  <tr>
+    <td>-ais</td>
+    <td>-ions</td> 
+  </tr>
+  <tr>
+    <td>-ais</td>
+    <td>-iez</td> 
+  </tr>
+  <tr>
+    <td>-ait</td>
+    <td>-aient</td> 
+  </tr>
+</table>
+</div>
+
+#Subjunctive
+
+Take the -ent off of the present nous form of the verb, and add the following endings. This may result in two 'i's in a row.
+
+<div class="conjugation-table">
+<h3>-er, -ir, and -re</h3>
+<table>
+  <tr>
+    <td>-e</td>
+    <td>-ions</td> 
+  </tr>
+  <tr>
+    <td>-es</td>
+    <td>-iez</td> 
+  </tr>
+  <tr>
+    <td>-e</td>
+    <td>-ent</td> 
   </tr>
 </table>
 </div>

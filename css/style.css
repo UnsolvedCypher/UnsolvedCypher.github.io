@@ -55,10 +55,14 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-bottom: 7.5%;
     word-wrap: break-word;
 }
 .main-content-box p {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.main-content-box ul {
     margin-left: 9%;
     margin-right: 9%;
 }
@@ -98,6 +102,7 @@ body {
 .conjugation-table table{
     table-layout: fixed;
     display: inline-table;
+    margin-top: 0.5em;
 }
 .conjugation-table td, .conjugation-table th{
     border: 2px solid #9b6600;
@@ -105,8 +110,12 @@ body {
     padding: 0.5em;
     width: 50%;
 }
-.conjugation-table h3 {
+.conjugation-table h3, .conjugation-table p {
     text-align: center;
+    margin: 0px;
+}
+.conjugation-table p {
+    font-size: 0.8em;
 }
 .conjugation-table {
     display: inline-block;

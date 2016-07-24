@@ -16,7 +16,7 @@ layout: default
             <p>
                 Please feel free to email me at <a href="mailto:contact@matthewmcmillan.me">contact@matthewmcmillan.me</a> or message me through <a href="https://telegram.org">Telegram</a> at <a href="https://telegram.me/UnsolvedCypher">telegram.me/unsolvedcypher</a> with feedback, suggestions, opposing opinions, etc. 
             </p>
-            <h1 class="text-center">Pages</h1>
+            <h1 class="text-center">Pages (these aren't finished!)</h1>
             <div class="row">
                 <div class="col-md-4">
                     <div class="homepage-box">
