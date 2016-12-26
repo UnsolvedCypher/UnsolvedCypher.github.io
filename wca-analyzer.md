@@ -13,7 +13,7 @@ Looking for a tool to analyze WCA profiles and find out what your fastest times 
 
 Please ensure you have the latest version of Java or the program may not run correctly. You can Java [here](https://java.com/en/download/).
 
-[Download here](wca-analyzer-1.0.jar)
+[Download here](../wca-analyzer-1.0.jar)
 
 ## Features:
 
