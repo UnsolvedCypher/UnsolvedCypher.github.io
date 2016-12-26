@@ -1,5 +1,5 @@
 ---
-title: Scorecard Generator
+title: WCA Analyzer
 permalink: /wca-analyzer/
 layout: page
 category1: WCA Analyzer
