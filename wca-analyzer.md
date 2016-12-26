@@ -6,7 +6,7 @@ category1: WCA Analyzer
 category1-url: /wca-analyzer/
 ---
 
-Scorecard Generator
+WCA Analyzer
 ===================
 
 Looking for a tool to analyze WCA profiles and find out what your fastest times are for each event and where you set them? Or, want to know your best PB streaks? You're at the right place!
