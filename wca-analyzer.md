@@ -11,7 +11,7 @@ WCA Analyzer
 
 Looking for a tool to analyze WCA profiles and find out what your fastest times are for each event and where you set them? Or, want to know your best PB streaks? You're at the right place!
 
-Please ensure you have the latest version of Java or the program may not run correctly. You can Java [here](https://java.com/en/download/).
+Please ensure you have the latest version of Java or the program may not run correctly. You can install Java [here](https://java.com/en/download/).
 
 [Download WCA Analyzer 1.5](../wca-analyzer-1.5.jar)
 
