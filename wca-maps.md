@@ -6,7 +6,7 @@ category1: WCA Maps
 category1-url: /wca-maps/
 ---
 
-WCA Mapz
+WCA Maps
 ==============
 
 This is a collection of maps created to show WCA statistics. Many of them are cartograms (maps that are distorted to show statistics), but some are just colored maps. You can click on any image to see the full-size version. If you have a suggestion for a new map, please contact wca [at] matthewmcmillan [dot] me.
@@ -17,4 +17,4 @@ The World Cube Association is the owner and source of WCA data. Their website is
 
 | Name | Database Export | Image |
 |------|-----------------|-------|
-| Countries Scaled by Number of Competitors | March 15, 2017 | [![Thumbnail](031517/countriesbycompetitorsthumb.html)](031517/countriesbycompetitorsfull.html) |
+| Countries Scaled by Number of Competitors | March 15, 2017 | [![Thumbnail](031517/countriesbycompetitorsthumb.png)](031517/countriesbycompetitorsfull.png) |
