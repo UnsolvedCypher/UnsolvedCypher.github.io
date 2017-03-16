@@ -6,7 +6,7 @@ category1: WCA Maps
 category1-url: /wca-maps/
 ---
 
-WCA Maps
+WCA Mapssss
 ==============
 
 This is a collection of maps created to show WCA statistics. Many of them are cartograms (maps that are distorted to show statistics), but some are just colored maps. You can click on any image to see the full-size version. If you have a suggestion for a new map, please contact wca [at] matthewmcmillan [dot] me.
