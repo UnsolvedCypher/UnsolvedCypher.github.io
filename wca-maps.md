@@ -17,4 +17,4 @@ The World Cube Association is the owner and source of WCA data. Their website is
 
 | | |
 |-|-|
-| Countries Scaled by Number of Competitors <br /> [![Thumbnail](031517/countriesbycompetitorsthumb.png)](031517/countriesbycompetitorsfull.png) | |
+| Countries Scaled by Number of Competitors <br /> March 15, 2017 Export <br /> [![Thumbnail](031517/countriesbycompetitorsthumb.png)](031517/countriesbycompetitorsfull.png) | |
