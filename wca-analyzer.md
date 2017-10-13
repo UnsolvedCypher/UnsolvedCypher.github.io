@@ -13,7 +13,7 @@ Looking for a tool to analyze WCA profiles and find out what your fastest times 
 
 Please ensure you have the latest version of Java or the program may not run correctly. You can install Java [here](https://java.com/en/download/).
 
-[Download WCA Analyzer 2.1](../wca-analyzer-2.1.jar)
+[Download WCA Analyzer 2.1](../wca-analyzer-2.2.jar)
 
 Interested in the source code? Take a look [right here](https://github.com/UnsolvedCypher/wca-analyzer).
 
@@ -26,3 +26,12 @@ Interested in the source code? Take a look [right here](https://github.com/Unsol
 * Shows how many competition you attended each year and the average number of days between competitions that year
 * Shows your longest PB streaks to date and when they started and ended
 * Shows total attempts, total rounds, total single successes and total average successes for each event
+
+## What's New?
+
+2.2
+* The analyzer has been updated to be compatible with the new WCA results page design
+* The option to exclude FMC-only competitions now works correctly
+
+2.0
+* Major redesign, including graphs of all statistics
