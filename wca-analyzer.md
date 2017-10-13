@@ -13,7 +13,7 @@ Looking for a tool to analyze WCA profiles and find out what your fastest times 
 
 Please ensure you have the latest version of Java or the program may not run correctly. You can install Java [here](https://java.com/en/download/).
 
-[Download WCA Analyzer 2.1](../wca-analyzer-2.2.jar)
+[Download WCA Analyzer 2.2](../wca-analyzer-2.2.jar)
 
 Interested in the source code? Take a look [right here](https://github.com/UnsolvedCypher/wca-analyzer).
 
