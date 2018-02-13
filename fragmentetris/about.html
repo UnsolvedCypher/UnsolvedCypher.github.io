@@ -1,0 +1,23 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>About Fragmentetris</title>
+  <meta name="description" content="A super awesome RPN calculator">
+  <meta name="author" content="Matthew McMillan">
+
+  <link rel="stylesheet" href="rpn.css">
+
+</head>
+
+<body style = "max-width: 1280px; width: 60%; margin: 0 auto; font-family: Helvetica, sans-serif;">
+    <h1 style="font-weight: normal; text-align: center;">About</h1>
+    <p>This is a modified game of tetris (forked from <a href="https://github.com/jakesgordon/javascript-tetris">here</a>) that also tracks fragmentation in the Tetris board. Fragmentation in computer memory is when memory is wasted either because too much was allocated to a process and the process didn't use it all, or because the free space in memory is not contiguous, and the amount of contiguous memory is too small to make use of. This game simulates this issue with tetris blocks, where the gaps between the blocks represent memory that cannot be used because the gap is too small. In real systems, paging is usually used, so that the amount of memory allocated is fixed, which solves the problem of pieces of small memory being unusable.</p>
+    <p>In this game, fragmentation is counted as the amount of free space on each row that has been used at all divided by the total amount of spaced on rows that have been used (including rows that have been completely filled). You can see that the fragmentation increases each time you start a new row, but as you fill it up, it goes down. Similarly, as you have more rows completely filled out, your fragmentation goes down because there are no gaps in these completed rows.</p>
+    <p>To start a game, press space. Left and right arrow keys move the piece to the left and right, the down arrow moves it downwards, and the up arrow rotates the piece. Professors teaching Operating Systems are strongly encouraged to use this activity in place of an assessment.</p>
+    <p><center><a href="index.html">Return to game</a></center></p>
+</body>
+</html>
