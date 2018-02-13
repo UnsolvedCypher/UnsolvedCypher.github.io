@@ -268,24 +268,40 @@
       setNextPiece();
     }
 
+    function accessibleFromTop(x, y) {
+        var currRow = y;
+        while(currRow >= 0) {
+            if (getBlock(x, currRow) != null) {
+                return false;
+            }
+            currRow = currRow - 1;
+        }
+        return true;
+    }
+
     function updateFragmentation() {
         var minRow = 20;
         var ivar = 0;
         var jvar = 0;
         var blocksOccupied = 0;
+        var fragments = 0;
         for (ivar = 0; ivar < 10; ivar++) {
           for (jvar = 0; jvar < 20; jvar++) {
             if (getBlock(ivar, jvar) != null) {
               minRow = Math.min(minRow, jvar);
               blocksOccupied = blocksOccupied + 1;
+          } else {
+              if (!accessibleFromTop(ivar, jvar)) {
+                  fragments = fragments + 1;
               }
+          }
           }
         }
 
-        var denominator = (20 - minRow) * 10;
 
+        var numerator = fragments;
 
-        var numerator = denominator - blocksOccupied;
+        var denominator = blocksOccupied + fragments;
 
         denominator += 10 * rows;
 
