@@ -13,7 +13,7 @@
     #upcoming { display: block; margin: 0 auto; background-color: #E0E0E0; }
     #score    { color: red; font-weight: bold; vertical-align: middle; }
     #rows     { color: blue; font-weight: bold; vertical-align: middle; }
-    #frag     { color: green; font-weight: bold; vertical-align: middle; }
+    #frag     { color: green; font-weight: bold; vertical-align: middle; display:block;}
     #fragperc     { color: orange; font-weight: bold; vertical-align: middle; display:block;}
     #currfragperc     { color: grey; font-weight: bold; vertical-align: middle; display:block;}
     #stats    { position: absolute; bottom: 0em; right: 1em; }
@@ -34,9 +34,9 @@
       <p><canvas id="upcoming"></canvas></p>
       <p>score <span id="score">00000</span></p>
       <p>rows <span id="rows">0</span></p>
-      <p>fragments <span id="frag">0</span></p>
-      <p>current % fragmentation <span id="currfragperc">0</span></p>
-      <p>total % fragmentation<span id="fragperc">0</span></p>
+      <p>fragmented blocks<span id="frag">0</span></p>
+      <p>current fragmentation<span id="currfragperc">0</span></p>
+      <p>total fragmentation<span id="fragperc">0</span></p>
     </div>
     <canvas id="canvas">
       Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
@@ -333,7 +333,7 @@
         if (numerator == 0) {
             get('currfragperc').innerHTML = "none";
         } else {
-            get('currfragperc').innerHTML = (numerator / parseFloat(denominator) * 100).toFixed(4) + "%";
+            get('currfragperc').innerHTML = numerator + "/" + denominator + " (" + (numerator / parseFloat(denominator) * 100).toFixed(2) + "%)";
         }
 
         denominator += 10 * rows;
@@ -343,7 +343,7 @@
         if (numerator == 0) {
             get('fragperc').innerHTML = "none";
         } else {
-            get('fragperc').innerHTML = (numerator / parseFloat(denominator) * 100).toFixed(4) + "%";
+            get('fragperc').innerHTML = numerator + "/" + denominator + " (" + (numerator / parseFloat(denominator) * 100).toFixed(2) + "%)";
         }
     }
 
