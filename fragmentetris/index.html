@@ -14,7 +14,8 @@
     #score    { color: red; font-weight: bold; vertical-align: middle; }
     #rows     { color: blue; font-weight: bold; vertical-align: middle; }
     #frag     { color: green; font-weight: bold; vertical-align: middle; }
-    #fragperc     { color: orange; font-weight: bold; vertical-align: middle; }
+    #fragperc     { color: orange; font-weight: bold; vertical-align: middle; display:block;}
+    #currfragperc     { color: grey; font-weight: bold; vertical-align: middle; display:block;}
     #stats    { position: absolute; bottom: 0em; right: 1em; }
     @media screen and (min-width:   0px) and (min-height:   0px)  { #tetris { font-size: 0.75em; width: 250px; } #menu { width: 100px; height: 200px; } #upcoming { width:  50px; height:  50px; } #canvas { width: 100px; height: 200px; } } /* 10px chunks */
     @media screen and (min-width: 400px) and (min-height: 400px)  { #tetris { font-size: 1.00em; width: 350px; } #menu { width: 150px; height: 300px; } #upcoming { width:  75px; height:  75px; } #canvas { width: 150px; height: 300px; } } /* 15px chunks */
@@ -33,8 +34,9 @@
       <p><canvas id="upcoming"></canvas></p>
       <p>score <span id="score">00000</span></p>
       <p>rows <span id="rows">0</span></p>
-      <p>fragmentation <span id="frag">0</span></p>
-      <p>% fragmentation <span id="fragperc">0</span></p>
+      <p>fragments <span id="frag">0</span></p>
+      <p>current % fragmentation <span id="currfragperc">0</span></p>
+      <p>total % fragmentation<span id="fragperc">0</span></p>
     </div>
     <canvas id="canvas">
       Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
@@ -328,10 +330,17 @@
 
         var denominator = blocksOccupied + fragments;
 
+        if (numerator == 0) {
+            get('currfragperc').innerHTML = "none";
+        } else {
+            get('currfragperc').innerHTML = (numerator / parseFloat(denominator) * 100).toFixed(4) + "%";
+        }
+
         denominator += 10 * rows;
 
-        get('frag').innerHTML = numerator + "/" + denominator;
-        if (denominator == 0) {
+        get('frag').innerHTML = numerator;;
+
+        if (numerator == 0) {
             get('fragperc').innerHTML = "none";
         } else {
             get('fragperc').innerHTML = (numerator / parseFloat(denominator) * 100).toFixed(4) + "%";
