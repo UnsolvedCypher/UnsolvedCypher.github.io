@@ -287,7 +287,6 @@
     }
 
     function lose() {
-      alert("Game over! You finished with a fragmentation percentage of " + get('fragperc').innerHTML);
       get('start').innerHTML = "Press Space to Play.";
       show('start');
       setVisualScore();
@@ -297,6 +296,8 @@
           localStorage.setItem("highscore", score);
           readHighScore();
       }
+      
+      alert("Game over! You finished with a fragmentation percentage of " + get('fragperc').innerHTML);
     }
 
     function setVisualScore(n)      { vscore = n || score; invalidateScore(); }
