@@ -47,7 +47,6 @@
   </div>
 
           <center><a href="http://www.matthewmcmillan.me/fragmentetris/about.html">About</a></center>
-  <script src="./Fragmentetris_files/stats.js"></script>
   <script>
 
     //-------------------------------------------------------------------------
@@ -79,7 +78,6 @@
 
     var KEY     = { ESC: 27, SPACE: 32, LEFT: 37, UP: 38, RIGHT: 39, DOWN: 40, P: 80, S: 83 },
         DIR     = { UP: 0, RIGHT: 1, DOWN: 2, LEFT: 3, MIN: 0, MAX: 3 },
-        stats   = new Stats(),
         canvas  = get('canvas'),
         ctx     = canvas.getContext('2d'),
         ucanvas = get('upcoming'),
@@ -224,10 +222,10 @@
 
     }
 
-    function showStats() {
-      stats.domElement.id = 'stats';
-      get('menu').appendChild(stats.domElement);
-    }
+//     function showStats() {
+//       stats.domElement.id = 'stats';
+//       get('menu').appendChild(stats.domElement);
+//     }
 
     function addEvents() {
       document.addEventListener('keydown', keydown, false);
