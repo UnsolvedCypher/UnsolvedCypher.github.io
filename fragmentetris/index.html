@@ -257,7 +257,7 @@
           case KEY.S:     get('start').innerHTML = "Speed mode!"; show('start'); speed = { start: 0.1, decrement: 0.005, min: 0.1 }; step = Math.max(speed.min, speed.start - (speed.decrement*rows)); handled = true; break;
         }
       }
-      else if (ev.keyCode == KEY.SPACE) {
+      else if (!reallyPlaying && !playing && ev.keyCode == KEY.SPACE) {
         play();
         handled = true;
       } else if (reallyPlaying && ev.keyCode == KEY.P) {
