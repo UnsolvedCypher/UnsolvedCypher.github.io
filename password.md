@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 </head>
@@ -7,9 +6,7 @@
 <h2>Memorable Password Generator</h2>
 
 <form id="mainForm">
-  <p>
-    This tool will generate a memorable but strong password.
-  </p>
+  <p>This tool will generate a memorable but strong password.</p>
   Possible separators:
   <input type="text" name="possibleSeparators" value="-+_$!">
   <br />
@@ -31,12 +28,8 @@ Formula:
   <input type="button" value="Reset" onclick="reset()">
 </form>
 
-<p id="result">
-result goes here
-</p>
-<p id = "entropy">
-  entropy goes here
-</p>
+<p id="result"></p>
+<p id = "entropy"></p>
 
 <script>
   var dict = `about
