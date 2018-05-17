@@ -1,3 +1,7 @@
+---
+permalink: /password
+---
+
 <html>
 <head>
 </head>
@@ -5497,7 +5501,12 @@ poison`;
 
   var splitDict = dict.split("\n");
   function updateResult(newText) {
-    document.getElementById("result").innerHTML = newText;
+    var newString = "<ul>";
+    for (var i = 0; i < newText.length; i++) {
+      newString += "<li>" + newText[i] + "</li>";
+    }
+    newString += "</ul>"
+    document.getElementById("result").innerHTML = newString;
   }
 
 
@@ -5589,31 +5598,37 @@ poison`;
 
 
   function generatePassword(possibleSeparators, possibleSpecialChars, capitalize, formula) {
-    var result = "";
-    var separator = getRandomSeparator(possibleSeparators);
-    for (var i = 0; i < formula.length; i++) {
-      if (formula[i] == "w") {
-        if (capitalize == 0) {
-          result += getRandomWord();
-        } else if (capitalize == 1) {
-          result += getRandomWord().toUpperCase();
-        } else if (capitalize == 2) {
-          result += randomlyCapitalize(getRandomWord());
-        }
+    var passwords = [];
+    for (var k = 0 ; k < 100; k++) {
+      console.log("generating new password!");
+      var result = "";
+      var separator = getRandomSeparator(possibleSeparators);
+      for (var i = 0; i < formula.length; i++) {
+        if (formula[i] == "w") {
+          if (capitalize == 0) {
+            result += getRandomWord();
+          } else if (capitalize == 1) {
+            result += getRandomWord().toUpperCase();
+          } else if (capitalize == 2) {
+            result += randomlyCapitalize(getRandomWord());
+          }
 
-        if (i < formula.length - 1 && formula[i + 1] == "w") {
-          result += separator;
+          if (i < formula.length - 1 && formula[i + 1] == "w") {
+            result += separator;
+          }
+        } else if (formula[i] == "d") {
+          result += getRandomDigit();
+        } else if (formula[i] == "c") {
+          result += getRandomSpecialChar(possibleSpecialChars);
+        } else {
+          alert("There was an error reading your password formula.")
+          return;
         }
-      } else if (formula[i] == "d") {
-        result += getRandomDigit();
-      } else if (formula[i] == "c") {
-        result += getRandomSpecialChar(possibleSpecialChars);
-      } else {
-        alert("There was an error reading your password formula.")
-        return;
       }
+      console.log("pushing result");
+      passwords.push(result);
     }
-    updateResult(result);
+    updateResult(passwords);
   }
 
   // function reset() {
